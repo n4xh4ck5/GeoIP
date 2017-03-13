@@ -1,10 +1,9 @@
-!/usr/bin/python
+#!/usr/bin/python
 import argparse
 from argparse import RawTextHelpFormatter
 from urllib2 import urlopen
 from contextlib import closing
 import json
-dataIP=[]
 def whoismyIP(IP):
 	# Automatically geolocate the connecting IP
 	url = 'http://freegeoip.net/json/'+IP
