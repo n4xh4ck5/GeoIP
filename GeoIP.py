@@ -1,6 +1,4 @@
-##### Geolicating the IP's ####
-#!/usr/bin/python
-# Written by Ignacio Brihuega Rodriguez 
+!/usr/bin/python
 import argparse
 from argparse import RawTextHelpFormatter
 from urllib2 import urlopen
@@ -27,7 +25,7 @@ parser.add_argument('-o','--option', help="Indicate the option of input\n\t1 -En
 args = parser.parse_args()
 option = int (args.option)
 if (option == 1):
-	print ("\t1.Enter IP:")
+	print ("\t1.Enter IP or hostname:")
 	IP=raw_input()
 	whoismyIP(IP)
 if (option == 2):
