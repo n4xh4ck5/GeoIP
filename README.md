@@ -1,5 +1,4 @@
-python geoip.py -h
-<pre>
+<pre>python geoip.py -h
 usage: geoip.py [-h] [-i INPUT] [-f FILE]
 
 This script obtains information about IPs: geolocation, ASN,...
