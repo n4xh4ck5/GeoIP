@@ -1,3 +1,8 @@
+<h1>Install</h1>
+Dependencies installable by pip:
+<pre> pip install -r requirements.txt
+
+<h1>Usage</h1>
 <pre>python geoip.py -h
 usage: geoip.py [-h] [-i INPUT] [-f FILE]
 
